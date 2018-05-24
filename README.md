@@ -4,4 +4,10 @@ A mini-project to refresh my memory of web development skills, also used CSS Gri
 
 Some of the code seems to me a little "hacky", so in future once I know more I would like to go over it again and clean it up.
 
+![Screenshot of UK News](screenshots/gb_news.png)
+The UK's Top Headlines on 24/05/18
 
+![Screenshot of Menu](screenshots/selecting_source.png)
+I wonder what is going on in the US today...
+
+![Screenshot of US News](screenshots/us_news.png)

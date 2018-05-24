@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="fetch.js"/></script>
+    <link rel = "stylesheet" type="text/css" href="index.css" />
+
+  </head>
+
+  <body>
+    <div class="topbar">
+      <header class="topbarcontent">
+        <div class="websiteTitle">Hailer</div>
+        <div class="settings-cog">
+          <img src="perm_images/settings-cog.svg" />
+          <div class="optionscontainer">
+            <div class="optionscontent">
+              <span class="optionstext">Select which country to draw sources from:</span>
+
+              <select selected="Austria" id="countrySelecter"  class="countrySelecter" onchange="updateContainer()"></select>
+
+            </div>
+          </div>
+        </div>
+
+      </header>
+      <div class="seperatorLine"> </div>
+    </div>
+    <div class="articlecontainer">
+      <div id="root" class="articlewrapper">
+        <span id="statusTxt" class="statusText"> Retreiving News... </span>
+      </div>
+    </div>
+    <footer>
+      Content provided by <a href="newsapi.org">NewsAPI.org</a>
+    </footer>
+
+  </body>
+</html>
